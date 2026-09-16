@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>~☸~ Binh ☸ Monica's Birthday Retreat ~☸~</title>
+<style>
+  /* it is 1998 and also 2026 */
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #fdf6e3;
+    /* tiled background, hand-tiled like the old days */
+    background-image: radial-gradient(#e8dcc0 1px, transparent 1px);
+    background-size: 14px 14px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 12px 16px 40px;
+    background-color: #fffdf5;
+    border-left: 1px solid #d8ccae;
+    border-right: 1px solid #d8ccae;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  center { display: block; text-align: center; }
+
+  h1.wordart {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    line-height: 1.15;
+    margin: 8px 0 2px;
+    background: linear-gradient(90deg, #c0392b, #e67e22, #b7950b, #1e8449, #1f618d, #6c3483);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.08);
+  }
+  .tagline {
+    font-style: italic;
+    color: #555;
+    margin: 4px 0 0;
+  }
+  .construction {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 2px 10px;
+    border: 2px dashed #b8860b;
+    background: #fff8dc;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  hr.rainbow {
+    border: 0;
+    height: 4px;
+    margin: 24px 0;
+    background: linear-gradient(90deg, #c0392b, #e67e22, #b7950b, #1e8449, #1f618d, #6c3483);
+    border-radius: 2px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    color: #5b3a29;
+    margin-bottom: 6px;
+  }
+  h2::before { content: "☸ "; }
+
+  p, li, td, th { font-size: 1.05rem; line-height: 1.5; }
+
+  a { color: #0000ee; }
+  a:visited { color: #551a8b; }
+
+  /* photo placeholders — drop real photos in img/ and swap these */
+  .photo-slot {
+    border: 3px double #8b7355;
+    background: #f4ecd8;
+    padding: 6px;
+    margin: 16px auto;
+    max-width: 420px;
+  }
+  .photo-slot .frame {
+    border: 2px dashed #b0a080;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b7355;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 12px;
+  }
+  .photo-slot img { display: block; width: 100%; height: auto; }
+  .photo-slot .caption {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
+    margin-top: 6px;
+    text-align: center;
+  }
+
+  table.itinerary {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0;
+    background: #fffef8;
+  }
+  table.itinerary th, table.itinerary td {
+    border: 1px solid #8b7355;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.itinerary th {
+    background: #ede3c8;
+    font-family: Georgia, serif;
+    white-space: nowrap;
+  }
+
+  .bell-button {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    padding: 10px 18px;
+    background: #ede3c8;
+    border: 2px outset #c8b88a;
+    cursor: pointer;
+  }
+  .bell-button:active { border-style: inset; }
+  .bell-note { font-size: 0.8rem; color: #777; font-style: italic; }
+
+  .cta-box {
+    border: 2px solid #5b3a29;
+    background: #fff8dc;
+    padding: 14px 16px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .cta-box .big {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .counter {
+    font-family: "Courier New", Courier, monospace;
+    background: #000;
+    color: #33ff33;
+    padding: 3px 10px;
+    letter-spacing: 3px;
+    display: inline-block;
+    border: 2px inset #888;
+  }
+
+  .footer {
+    margin-top: 32px;
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.8;
+  }
+  .webring a { margin: 0 4px; }
+
+  .placeholder { background: #ffff99; padding: 0 3px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ BANNER ============ -->
+  <center>
+    <!-- <h1 class="wordart">~*~ Binh &amp; Monica's<br>Birthday Retreat ~*~</h1> -->
+    <h1 class="wordart">~☸~ Binh ♎︎︎ Monica's ~☸~<br>~☸~ Birthday Retreat ~☸~</h1>
+    <!-- <p class="tagline">two birthdays &middot; one monastery &middot; zero talking</p> -->
+    <!-- <span class="construction">🚧 UNDER CONSTRUCTION — PLEASE BREATHE 🚧</span> -->
+  </center>
+
+  <!-- ============ PHOTO: us + thay ============ -->
+  <div class="photo-slot">
+    <div class="frame">
+      [ photo goes here:<br>binh &amp; monica &amp; thich nhat hanh ]
+    </div>
+    <div class="caption">pictured: your hosts, in spirit, with Thầy</div>
+  </div>
+
+  <hr class="rainbow">
+
+  <!-- ============ WHY YOU'RE HERE ============ -->
+  <h2>Why am I here?</h2>
+  <p>
+    I ask this question to myself every day 𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+    <br>
+    And you probably do too! (That's why you're invited ❦)
+    <br>
+    Monica's birthday is <b>October 2</b> and Binh's is <b>October 20</b> and we are planning a silent meditation trip.
+    <br>
+    We'd love for you to join!
+  </p>
+
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+  𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊
+
+  <!-- ============ WHAT THE EVENT IS ============ -->
+  <h2>Say what</h2>
+  <p>
+    A weekend meditation retreat at
+    <a href="https://maps.app.goo.gl/UbKABT1NzjnRQNQDA">Blue Cliff Monastery</a>
+    in Pine Bush, NY — a monastery in the Plum Village tradition of Thich Nhat Hanh.
+    We drive up together on Friday Oct 30, spend Saturday (Halloween) in noble (spooky) silence, and head back to
+    the city Sunday with a stop at
+    <a href="https://maps.app.goo.gl/X3VQqzE3FtcXgz8q8">NY Makgeolli Brewery & Pub</a>
+    for makgeolli 𓏊 and eel 𓆓 on the way home.
+    <br>
+    <br>
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+    ‧₊˚ ⋅ 𓐐𓎩 ‧₊˚ ⋅
+  </p>
+  <p>
+    👉 Read about what a retreat there is like:
+    <a href="https://bluecliff.squarespace.com/about-our-retreats">Read About the Retreats</a>
+  </p>
+
+  <div class="photo-slot">
+    <div class="frame">
+      [ photo goes here:<br>blue cliff monastery ]
+    </div>
+    <div class="caption">the monastery, awaiting us calmly</div>
+  </div>
+
+  <!-- ============ ITINERARY ============ -->
+  <h2>The itinerary</h2>
+  <table class="itinerary">
+    <tr>
+      <th>Fri<br>Oct 30</th>
+      <td>Take the day (or half day) off. Drive up from NYC (~2 hrs).
+          <b>Arrive at Blue Cliff before 5:00 PM.</b> Settle in, dinner, sleep. </td>
+    </tr>
+    <tr>
+      <th>Sat<br>Oct 31</th>
+      <td><b>Sweet sweet silence.</b> Seriously don't talk to me. <br> See the example schedule in the About page.
+    </tr>
+    <tr>
+      <th>Sun<br>Nov 1</th>
+      <td>Morning practice, then lunch. Depart ~1:00 PM.
+          Late lunch stop at <b>NY Maekgolli Brewery &amp; Pub</b> to break the silence
+          properly. Back in NYC Sunday evening.</td>
+    </tr>
+  </table>
+
+  <hr class="rainbow">
+
+  <!-- ============ LOGISTICS ============ -->
+  <h2>Logistics</h2>
+  <ul>
+    <li><b>Cost:</b> adult dorm is $80–$120 per night (sliding scale), so about
+        <b>$160–$240 per person</b> for the two nights. Meals included.</li>
+    <li><b>Lodging:</b> shared dorms. Simple, clean, monastic. Bring a sense of humor.</li>
+    <li><b>What to expect:</b> vegan meals, early mornings, sitting and walking
+        meditation, and one full day of noble silence. Beginners very welcome — that's us too.</li>
+    <li><b>What to bring:</b> modest, comfortable clothes; layers (it's the Catskills-adjacent
+        countryside in late October); toiletries; a water bottle; maybe a journal.</li>
+    <li><b>Carpool:</b> <span class="placeholder">[ driving plan TBD — tell us if you have a car or need a seat ]</span></li>
+    <li><b>RSVP by:</b> <span class="placeholder">[ date TBD ]</span> so we can reserve dorm spots.</li>
+  </ul>
+
+  <div class="photo-slot">
+    <div class="frame">
+      [ photo goes here:<br>binh &amp; monica ]
+    </div>
+    <div class="caption">the birthday people</div>
+  </div>
+
+  <!-- ============ CALL TO ACTION ============ -->
+  <hr class="rainbow">
+  <div class="cta-box">
+    <p class="big">📟 RSVP: text us!</p>
+    <p>
+      Binh: <span class="placeholder">[ phone number ]</span><br>
+      Monica: <span class="placeholder">[ phone number ]</span>
+    </p>
+    <p>Say "I'm in," and whether you have a car. That's it. That's the whole RSVP.</p>
+  </div>
+
+  <center>
+    <button class="bell-button" id="bell" type="button">🔔 ring the bell of mindfulness</button>
+    <p class="bell-note">(turn your sound on. breathe in. breathe out.)</p>
+  </center>
+
+  <!-- ============ FOOTER ============ -->
+  <div class="footer">
+    <p>You are visitor <span class="counter" id="counter">000108</span></p>
+    <p class="webring">
+      part of the <b>Mindful Web Ring</b>:
+      <a href="#" onclick="return false;">&lt;&lt; prev</a> |
+      <a href="#" onclick="return false;">random</a> |
+      <a href="#" onclick="return false;">next &gt;&gt;</a>
+    </p>
+    <p>Best viewed in Netscape Navigator 4.0 at 800&times;600<br>
+       or, honestly, on your phone. we made sure.</p>
+    <p>&copy; 2026 binh &amp; monica &middot; hand-coded with presence</p>
+  </div>
+
+</div>
+
+<script>
+// The bell of mindfulness: a synthesized meditation bell via Web Audio.
+// To use a real chant/bell recording instead, replace ringBell() with
+// `new Audio('img/bell.mp3').play()`.
+let audioCtx;
+function ringBell() {
+  audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+  const now = audioCtx.currentTime;
+  // A bowl bell is roughly a fundamental plus inharmonic partials, each decaying slowly.
+  const partials = [
+    { freq: 220,   gain: 0.50, decay: 6.0 },
+    { freq: 442,   gain: 0.25, decay: 5.0 },
+    { freq: 588,   gain: 0.12, decay: 4.0 },
+    { freq: 1055,  gain: 0.06, decay: 3.0 },
+    { freq: 1320,  gain: 0.03, decay: 2.0 },
+  ];
+  for (const p of partials) {
+    const osc = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    osc.type = 'sine';
+    osc.frequency.value = p.freq;
+    g.gain.setValueAtTime(p.gain, now);
+    g.gain.exponentialRampToValueAtTime(0.0001, now + p.decay);
+    osc.connect(g).connect(audioCtx.destination);
+    osc.start(now);
+    osc.stop(now + p.decay);
+  }
+}
+document.getElementById('bell').addEventListener('click', ringBell);
+
+// Fake-but-fun visitor counter: increments once per visit via localStorage.
+(function () {
+  const KEY = 'bday-visits';
+  const n = (parseInt(localStorage.getItem(KEY) || '107', 10) + 1);
+  localStorage.setItem(KEY, String(n));
+  document.getElementById('counter').textContent = String(n).padStart(6, '0');
+})();
+</script>
+</body>
+</html>
